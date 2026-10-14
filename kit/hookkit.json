@@ -1,0 +1,10 @@
+{
+  "disabled_rules": [],
+  "allow_commands": [],
+  "extra_blocked_patterns": [
+    {"id": "no-prod-deploy", "pattern": "deploy\\.sh\\s+prod", "message": "Production deploys must be run by a human."}
+  ],
+  "log_dir": ".claude/hookkit-logs",
+  "format_enabled": true,
+  "format_timeout_seconds": 20
+}

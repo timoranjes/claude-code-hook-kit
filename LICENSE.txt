@@ -1,0 +1,11 @@
+Claude Code Hook Kit - Licence
+
+You may use, modify and run this software in any number of your own or your employer's
+projects, and share it with teammates who work on those projects.
+
+You may not resell, sublicense, or redistribute the kit, or a substantially similar copy of
+it, as a standalone product or as part of one.
+
+The software is provided "as is", without warranty of any kind. Pattern-based guards reduce
+risk but cannot catch every dangerous command or secret; you remain responsible for what
+runs in your environment.

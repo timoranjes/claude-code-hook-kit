@@ -1,0 +1,6 @@
+{
+  "name": "hook-guard",
+  "description": "Safety guards, formatter and audit log hooks for Claude Code. Blocks destructive commands and secret leaks.",
+  "version": "1.0.0",
+  "author": {"name": "Timoranjes", "url": "https://github.com/timoranjes"}
+}
