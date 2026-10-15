@@ -1,6 +1,21 @@
 {
   "name": "hook-guard",
   "description": "Safety guards, formatter and audit log hooks for Claude Code. Blocks destructive commands and secret leaks.",
-  "version": "1.0.0",
-  "author": {"name": "Timoranjes", "url": "https://github.com/timoranjes"}
+  "version": "1.1.0",
+  "author": {
+    "name": "Timoranjes",
+    "url": "https://github.com/timoranjes"
+  },
+  "homepage": "https://github.com/timoranjes/claude-code-hook-kit",
+  "repository": "https://github.com/timoranjes/claude-code-hook-kit",
+  "icon": "./.claude-plugin/icon.png",
+  "userConfig": {
+    "license_key": {
+      "type": "string",
+      "title": "Supporter license key",
+      "description": "Optional TIMO_ supporter-tier key. Stored in the platform credential store; all tools work without it.",
+      "required": false,
+      "sensitive": true
+    }
+  }
 }

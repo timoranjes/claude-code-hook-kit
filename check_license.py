@@ -1,6 +1,9 @@
 
 #!/usr/bin/env python3
-"""License check helper — validates a TIMO_ license key against Polar (public endpoint, no auth)."""
+"""License check helper — validates a TIMO_ license key against Polar (public endpoint, no auth).
+
+Informational only: the key must be passed as a CLI argument. This script does not read
+environment variables, files or stored credentials."""
 import json, sys, urllib.request
 
 ORG_ID = "307df5be-71b4-4ae8-bb83-4418f807480c"

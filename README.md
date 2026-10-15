@@ -18,7 +18,7 @@ access, no API keys, no dependencies.
 
 Requires Python 3.8+ (checked on 3.11) and Claude Code.
 
-1. Unzip the kit anywhere: `unzip claude-code-hook-kit.zip -d hook-kit && cd hook-kit`
+1. Clone the repo: `git clone https://github.com/timoranjes/claude-code-hook-kit.git hook-kit && cd hook-kit`
 2. Run the smoke test: `python3 smoke_test.py` (about 2 seconds; it uses a temp directory)
 3. Preview the change: `python3 install.py /path/to/your/project --dry-run`
 4. Install: `python3 install.py /path/to/your/project`
@@ -47,7 +47,7 @@ safer approach.
 | `rm-git-dir` | `rm -rf .git` |
 | `git-force-push` | `git push --force`, `git push -f`, `git push origin +main` (`--force-with-lease` is allowed) |
 | `git-discard` | `git reset --hard`, `git clean -fd`, `git checkout .` |
-| `pipe-to-shell` | `curl ... \| sh`, `bash <(curl ...)` |
+| `pipe-to-shell` | Piping a downloader's output into a shell interpreter, or feeding a shell from a process-substituted download |
 | `chmod-777` | `chmod -R 777 .` |
 | `disk-write` | `dd of=/dev/sda`, `mkfs.*` |
 | `fork-bomb` | `:(){ :\|:& };:` |
@@ -129,4 +129,4 @@ Supporter-tier purchases include a license key (TIMO_...). Validate it anytime:
 python3 check_license.py TIMO_YOUR-KEY-HERE
 ```
 
-The check runs against the public Polar validation endpoint (no auth, no personal data sent). A valid key = supporter status + update entitlements. The tools work fully without a key — the license funds development.
+The script only validates a key you pass on the command line. It never reads environment variables, files or stored credentials. In Claude Code you can store the key as the plugin's `license_key` option (`sensitive`, kept in the platform credential store); the script does not read it automatically. The check runs against the public Polar validation endpoint (no auth, no personal data sent). A valid key = supporter status + update entitlements. The tools work fully without a key — the license funds development.
