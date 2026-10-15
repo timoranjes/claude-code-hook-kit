@@ -1,6 +1,6 @@
 # Claude Code Hook Kit
 
-**Buy (one-time, $19):** https://buy.polar.sh/polar_cl_vc6OdyNtVwQet8kOhVtT0V4oeFHShyOH6LIqe1WMoD5
+**Buy (one-time, $19):** https://buy.polar.sh/polar_cl_vc6OdyNtVwQet8kOhVtT0V4oeFHShyOH6LIqe1WMoD5?utm_source=github
 
 
 Guardrail hooks for Claude Code, written in Python 3 (standard library only). No network
@@ -119,7 +119,7 @@ python3 -m unittest discover -s tests
 
 Licensed for use in your own projects and teams; see LICENSE.txt.
 
-**Bundle (both tools, $29):** https://buy.polar.sh/polar_cl_APhmmzhYIlcAK8wpgidKSTaGC6lVRVLq1agZd3CPkaS
+**Bundle (both tools, $29):** https://buy.polar.sh/polar_cl_APhmmzhYIlcAK8wpgidKSTaGC6lVRVLq1agZd3CPkaS?utm_source=github
 
 ## License keys (supporter tier)
 
